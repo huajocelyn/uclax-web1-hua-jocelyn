@@ -45,6 +45,12 @@ const Essays = () => {
             <SingleEssay question={`Q4: Sample Question...`}>
                 Answer 4 goes here
             </SingleEssay>
+            <SingleEssay question={`Q5: Sample Question...`}>
+                Answer 5 goes here
+            </SingleEssay>
+            <SingleEssay question={`Q6: Sample Question...`}>
+                Answer 6 goes here
+            </SingleEssay>
         </EssaysStyled>
     );
 };
