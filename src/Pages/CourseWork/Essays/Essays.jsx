@@ -76,12 +76,72 @@ const Essays = () => {
             <SingleEssay
                 question={`Q5: In React, what are the different ways we can link to resources (e.g. Root Relative vs. Document Relative)?`}
             >
-                Answer 5 goes here
+                In React, linking to resources typically involves using the
+                anchor tag for external links on the ‘Link’ component from React
+                Router for internal navigation within your application. However,
+                the concepts of “Root Relative” and “Document Relative” paths
+                are more related to web development in general rather than React
+                specifically.
+                <strong> Root Relative Paths</strong>: These paths start from
+                the root directory of your website/application. They always
+                begin with a forward slash (/), indicating the root of the
+                website. For example, if your website’s root is
+                ‘https://example.com,’ and you want to link to a page located at
+                ‘https://example.com/about,’ you would use “/about” as the path.
+                In React, you can use this approach when defining the “to” prop
+                in “Link” components from React Router or when specifying the
+                “href” attribute in anchor tags.{" "}
+                <strong> Document Relative Paths</strong>: These paths are
+                relative to the current document’s location. They don’t include
+                the domain name or the root directory. Instead, they specify the
+                path relative to the current URL. For example, if you are on a
+                page ‘https://example.com/products’ and want to link to a page
+                ‘https://example/products/detail,’ you would use ‘detail’ as the
+                path. In React, you can use document-relative paths by simply
+                specifying the relative path in the ‘to’ prop of the ‘Link’
+                component or the ‘href’ attribute of an anchor tag.
             </SingleEssay>
             <SingleEssay
                 question={`Q6: What is the difference between jpg, gif, png and svg images?`}
             >
-                Answer 6 goes here
+                <strong>JPEG</strong> (joint photographic experts group) files
+                are one of the most common ways to store digital photos. Many
+                modern cameras use them to shoot and store images. They go
+                through a compression process to significantly reduce the image
+                file size - making them easier to store and load on web pages.
+                JPEG images can contain up to 16 million colors. JPEGs contain
+                less data than PNGs - and therefore, are usually smaller in
+                size. JPEGs use a lossy compression process - meaning some data
+                from the image is permanently deleted when it’s made smaller.
+                This could compromise the quality of your file in the long term
+                because each time you edit and save it, you lose more data.
+                <strong> PNGs</strong> (portable network graphics files) are
+                raster-based files, that is, pixel-based image format. If you
+                scale up a raster image too far, it becomes grainy and
+                pixelated. Similarly, if the image is too small, it can become
+                distinct. While PNGs are capable of handling very high
+                resolutions, they’re not infinitely expandable. They’re
+                compressible, and can handle 16 million colors. They’re mostly
+                used for web graphics, logos, charts, and illustrations, rather
+                than high-quality photographs, because they take up more storage
+                space than JPEGs.
+                <strong> SVG</strong> (scalable vector graphics) work well for
+                logos and graphics because you can scale them up or down for
+                different purposes. They’re also a popular choice in web design
+                because search engines like Google can reach their XML
+                programming language. This helps with SEO and website rankings.
+                Unlike PNGs, SVGs are vector-based. This means that they use
+                mathematical algorithms to display images, which you can then
+                scale to any size without negatively impacting their quality.
+                They can expand to any size without losing their resolution.
+                <strong> GIF</strong> (graphic interchange format) image files
+                are commonly used on the web to display graphics and logos. They
+                also support basic animation, which means they’re a popular file
+                format for memes on social media sites. GIF is a raster file
+                format designed for relatively basic images that appear mainly
+                on the internet. Each file can support up to 8 bits per pixel
+                and can contain 256 indexed colors. GIF files also allow images
+                or frames to be combined, creating basic animations.
             </SingleEssay>
             <SingleEssay
                 question={`Q7: Define the following Agile roles: Product Manager, Scrum Master, UX Designer, Developer/Engineer, QA/SDET, and DevOps.`}

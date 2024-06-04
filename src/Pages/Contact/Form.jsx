@@ -99,7 +99,7 @@ const FormStyled = styled.form`
     }
 
     button {
-        background-color: teal;
+        background-color: #2d221e;
         padding: 10px 5px;
         color: #fff;
         width: 150px;
@@ -109,7 +109,7 @@ const FormStyled = styled.form`
         cursor: pointer;
         &:hover,
         &:focus {
-            background-color: #015353;
+            background-color: #918380;
         }
         &:active {
             background-color: #002020;
