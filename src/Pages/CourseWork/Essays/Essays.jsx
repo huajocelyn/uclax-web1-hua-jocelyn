@@ -10,7 +10,24 @@ const Essays = () => {
             <SingleEssay
                 question={`Q1: Explain the difference between HTML, CSS, and Javascript`}
             >
-                Answer 1 goes here
+                <strong>HTML</strong> stands for "HyperText Markup Language."
+                "Markup language" means that rather than using a programming
+                language to perform functions, HTML uses tags to identify
+                different types of content and the purposes they serve to the
+                webpage. <strong>CSS</strong>, or "Cascading Style Sheets," is
+                used to control presentation, formatting, and layout. It
+                dictates how HTML elements of a website should appear on the
+                front end of the page. It allows for the addition of interactive
+                elements like background color, headers, shapes, graphics, and
+                more that make websites and web applications much more engaging
+                to the viewer. It also allows websites to adapt to different
+                screen sizes and device types. <strong>JavaScript</strong> is
+                another front-end programming language that lets web developers
+                design interactive sites. Whereas HTML & CSS are used to control
+                presentation, formatting, and layout, JavaScript is used to
+                control the behavior of different web elements. Most of the
+                dynamic behavior you see on a web page is thanks to JavaScript,
+                which augments a browser's default controls and behaviors.
             </SingleEssay>
             <SingleEssay
                 question={`Q2: What's the difference between Git and Github?`}
