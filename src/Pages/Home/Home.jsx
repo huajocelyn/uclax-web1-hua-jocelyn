@@ -9,7 +9,6 @@ const Home = () => {
     return (
         <HomeStyled>
             <h1>Home</h1>
-            <Slideshow />
             <Inset>
                 <Tabbed />
             </Inset>
