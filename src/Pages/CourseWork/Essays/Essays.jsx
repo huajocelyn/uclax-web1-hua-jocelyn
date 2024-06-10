@@ -163,7 +163,49 @@ const Essays = () => {
             <SingleEssay
                 question={`Q7: Define the following Agile roles: Product Manager, Scrum Master, UX Designer, Developer/Engineer, QA/SDET, and DevOps.`}
             >
-                Answer 7 goes here
+                A <strong> Product Manager</strong> (PM) plays a critical role
+                in the development and success of a product within an
+                organization. They are the key driver in the lifecycle of a
+                product, from conception through development, launch, and
+                beyond, ensuring that the product meets market needs and
+                contributes to the company’s success. Some key responsibilities:
+                Define the product vision, conduct market research, prioritize
+                features and initiatives, and lead cross-functional teams. A{" "}
+                <strong> Scrum Master</strong> is a crucial role in Agile
+                project management, particularly within the Scrum framework. The
+                Scrum Master facilitates the Scrum process, ensuring the team
+                follows Agile practices and principles. A{" "}
+                <strong> UX Designer</strong> (User Experience) focuses on
+                creating products that provide meaningful and relevant
+                experiences to users. This involves designing the entire process
+                of acquiring and integrating the product, including aspects of
+                branding, design, usability, and function. They focus on
+                understanding the user’s needs and designing solutions that
+                provide a seamless and efficient user experience. A{" "}
+                <strong> Developer/Engineer</strong> is a professional who uses
+                technical enterprise to create, design, and maintain systems,
+                applications, or infrastructures. These roles can be broadly
+                categorized based on the specific domain they operate in, such
+                as software, hardware, network, or systems engineering. Some
+                responsibilities of a developer include: working on the
+                front-end (user interface) and back-end (server, database)
+                components, and involved in tasks like coding, debugging,
+                testing, and documentation. Some responsibilities of an engineer
+                include: designing software systems and architectures, ensuring
+                scalability, efficiency, and reliability.{" "}
+                <strong> Quality Assurance</strong> (QA) and{" "}
+                <strong> Software Development Engineer in Test </strong> (SDET)
+                are roles focused on ensuring the quality and reliability of
+                software products. Both roles are integral to the software
+                development lifecycle, but SDETs typically bring a more
+                technical and development-oriented approach to the testing
+                process. <strong> DevOps</strong> is a set of practices that
+                combines software development (Dev) and IT operations (Ops)
+                aimed at shortening the system development lifecycle and
+                providing continuous delivery with high software quality. The
+                role of a DevOps engineer is to bridge the gap between
+                development and operations, ensuring smoother, faster, and more
+                reliable software delivery.
             </SingleEssay>
         </EssaysStyled>
     );
